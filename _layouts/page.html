@@ -17,11 +17,11 @@
     <div class="header" onclick="location.href='index.html';" style="cursor:pointer;"></div>
     <div id="nav">
       <ul>
-        <li><a href="who.html">Who We Are</a></li>
-        <li><a href="why.html">Why Bamboo?</a></li>
-        <li><a href="buy.html">Buy a Shirt</a></li>
+        <li><a href="who.html" {% if page.title == 'Who' %} class="current" {% endif %}>Who We Are</a></li>
+        <li><a href="why.html" {% if page.title == 'Why' %} class="current" {% endif %}>Why Bamboo?</a></li>
+        <li><a href="buy.html" {% if page.title == 'Buy' %} class="current" {% endif %}>Buy a Shirt</a></li>
         <li><br /></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="contact.html" {% if page.title == 'Contact' %} class="current" {% endif %}>Contact Us</a></li>
         <li><a href="http://twitter.com/gmdesigns">Follow Us on Twitter</a></li>
       </ul>
     </div>
