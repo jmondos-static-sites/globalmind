@@ -1,0 +1,26 @@
+/* ##########################################
+   ##  Name: Pro Business                  ##
+   ##  Developed by: cesiel1993            ##
+   ##  File: ie7.css - IE7 Fixes           ##
+   ##  Last Updated: February 23rd, 2009   ##
+   ##  Help: Email - cesiel1993@gmail.com  ##
+   ##########################################
+*/
+
+.content {
+	position: relative;
+	background: url(../images/content_bg.png) repeat-y;
+	width: 562px;
+	margin: -50px 0px 0px 30px;
+	padding: 20px;
+}
+
+.work_sample {
+	background: #252321;
+	border: 1px solid #706d65;
+	padding: 10px;
+}
+
+#contact_form button{ 
+	margin-left: 317px;
+}

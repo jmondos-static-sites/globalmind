@@ -1,0 +1,35 @@
+/* page-wide elements */
+* {
+	margin: 0;
+	}
+html, body {
+	height: 100%;
+	font-family: Verdana, Arial, sans-serif;
+
+	}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+	padding: 0 10px;
+	max-width: 780px;
+	line-height: 1.35em;
+	}
+	
+/* header and footer */
+.footer, .push {
+	height: 50px; /* .push must be the same height as .footer */ }
+.footer {
+	text-align:center;
+	font-size: 1.1em; color:#092c09;}
+.line2 {font-size:.9em; color:#113f11;}
+
+.header {
+	background: bottom center no-repeat url(images/title-web.png);
+	height: 120px;
+	margin-bottom: 30px;
+	}
+p {margin-top: 1em;}
+ul {margin-top: 1em;}

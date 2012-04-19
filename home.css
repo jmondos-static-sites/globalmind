@@ -1,0 +1,43 @@
+.wrapper {width: 760px;}
+#shirtcontleft, #shirtcontright {
+	height: 210px;
+	padding-top: 130px;
+}
+#shirtbg {
+	font-size: .9em;
+	margin: 0 40px 0 -40px;
+	background: url(images/bg.png);
+	position:relative;
+	height: 385px;
+}
+#shirtcontleft {
+	text-align: right;
+	width: 245px;
+	padding-left: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#shirtcontright {
+	width: 185px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 10px
+	}
+
+#shirtcontright ul li a {
+	color: black;
+	text-decoration: none;
+}
+#shirtcontright ul li {
+	padding-bottom: .5em;
+	list-style-type: none;
+}
+#shirtcontright ul {
+	padding-left: 0px;
+}
+#shirtcontright ul li a:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
